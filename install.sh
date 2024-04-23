@@ -6,6 +6,8 @@ sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubunt
 
 ## install mssql server 
 sudo apt-get update
+sudo apt-get install -y mssql-server
+
 
 ## config sql server
 sudo /opt/mssql/bin/mssql-conf setup
